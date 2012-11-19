@@ -13,4 +13,4 @@ shells.
 Here's an example of the theme displaying Javascript, Ruby (Rails),
 Elisp and Clojure.
 
-![Large Screenshot](./phoenix-dark-pink.png)
+<img src="https://github.com/j0ni/phoenix-dark-pink/blob/master/phoenix-dark-pink.png" width="400"/>
