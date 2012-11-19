@@ -98,6 +98,6 @@
  `(js2-jsdoc-type-face ((t (:foreground "#787878"))))
  `(js2-jsdoc-value-face ((t (:foreground "#787878"))))
  `(js2-function-param-face ((t (:foreground, "#B294BB"))))
- `(js2-external-variable-face ((t (:foreground "#efbfef")))))
+ `(js2-external-variable-face ((t (:foreground "#ffbfff")))))
 
 (provide-theme 'phoenix-dark-pink)
