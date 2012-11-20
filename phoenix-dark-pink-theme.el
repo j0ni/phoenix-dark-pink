@@ -16,8 +16,8 @@
  '(trailing-whitespace ((t (:background "#d1afdd" :underline nil :weight normal))))
 
  '(font-lock-builtin-face ((t (:weight normal :underline nil :foreground "#ddd"))))
- '(font-lock-comment-delimiter-face ((t (:weight normal :underline nil :foreground "#444" :inherit font-lock-comment-face))))
- '(font-lock-comment-face ((t (:foreground "#654263" :underline nil :weight normal))))
+ '(font-lock-comment-delimiter-face ((t (:weight normal :underline nil :foreground "#555" :inherit font-lock-comment-face))))
+ '(font-lock-comment-face ((t (:foreground "#755273" :underline nil :weight normal))))
  '(font-lock-constant-face ((t (:foreground "#B294BB" :underline nil :weight normal))))
  '(font-lock-doc-face ((t (:weight normal :underline nil :foreground "#a582a3" :inherit (font-lock-string-face)))))
  '(font-lock-function-name-face ((t (:foreground "#EFEFEF" :underline nil :weight normal))))
@@ -79,8 +79,8 @@
  `(erb-delim-face ((t (:inherit erb-face :foreground "#efbfef" :background "#191919"))))
  `(erb-exec-delim-face ((t (:inherit erb-delim-face))))
  `(erb-out-delim-face ((t (:inherit erb-delim-face :foreground "#efbfef" :background "#191919"))))
- `(erb-comment-face ((t (:inherit font-lock-comment-face))))
- `(erb-comment-delim-face ((t (:inherit font-lock-comment-delimiter-face))))
+ `(erb-comment-face ((t (:inherit erb-face :foreground "#755273" :background "#191919"))))
+ `(erb-comment-delim-face ((t (:inherit erb-face :foreground "#555" :background "#191919"))))
 
  `(rainbow-delimiters-depth-9-face ((t (:foreground "#ffcfff"))))
  `(rainbow-delimiters-depth-8-face ((t (:foreground "#efbfef"))))
