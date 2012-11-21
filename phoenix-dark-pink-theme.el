@@ -10,7 +10,7 @@
  '(escape-glyph ((t (:weight normal :underline nil :foreground "#d1afdd"))))
  '(minibuffer-prompt ((t (:weight normal :underline nil :foreground "#d1afdd"))))
  '(highlight ((t (:background "#282828" :underline nil :weight normal))))
- '(region ((t (:weight normal :underline nil :background "#4b2b3f"))))
+ '(region ((t (:weight normal :underline nil :background "#412b3f"))))
  '(shadow ((t (:weight normal :underline nil :foreground "grey70"))))
  '(secondary-selection ((t (:weight normal :underline nil :background "#3f3f3f"))))
  '(trailing-whitespace ((t (:background "#d1afdd" :underline nil :weight normal))))
