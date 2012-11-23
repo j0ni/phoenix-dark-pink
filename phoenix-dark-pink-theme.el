@@ -104,7 +104,7 @@
  `(erc-bold-face ((t (:weight bold))))
  `(erc-current-nick-face ((t (:foreground "#cccccc" :weight bold))))
  `(erc-dangerous-host-face ((t (:inherit font-lock-warning))))
- `(erc-default-face ((t (:foreground "#cc90cc"))))
+ `(erc-default-face ((t (:foreground "#cccccc"))))
  `(erc-direct-msg-face ((t (:inherit erc-default))))
  `(erc-error-face ((t (:inherit font-lock-warning))))
  `(erc-fool-face ((t (:inherit erc-default))))
