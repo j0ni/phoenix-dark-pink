@@ -129,7 +129,10 @@
  `(w3m-lnum ((t (:foreground "#787878"))))
  `(w3m-lnum-match ((t (:background "#a582a3"
                                    :foreground "#191919"))))
- `(w3m-lnum-minibuffer-prompt ((t (:foreground "#efbfff")))))
+ `(w3m-lnum-minibuffer-prompt ((t (:foreground "#efbfff"))))
+
+ `(highlight-indentation-face ((t (:inherit highlight))))
+ `(highlight-indentation-current-column-face ((t (:inherit highlight)))))
 
 ;;;###autoload
 (when load-file-name
