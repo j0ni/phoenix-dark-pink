@@ -14,7 +14,7 @@
 
 (custom-theme-set-faces
  'phoenix-dark-pink
- '(default ((t (:inherit nil :stipple nil :background "#191919" :foreground "#cccccc" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 120 :width normal :foundry "apple" :family "PragmataPro"))))
+ '(default ((t (:inherit nil :stipple nil :background "#191919" :foreground "#cccccc" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal))))
  '(cursor ((t (:background "#cccccc" :foreground "#191919" :underline nil :weight normal))))
  '(fixed-pitch ((t (:underline nil :weight normal :family "PragmataPro"))))
  '(variable-pitch ((t (:family "Sans Serif" :weight normal :underline nil))))
