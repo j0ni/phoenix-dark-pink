@@ -1,5 +1,4 @@
-;;; phoenix-dark-pink-theme.el --- Port of the Sublime Text 2 theme of
-;;; the same name
+;;; phoenix-dark-pink-theme.el --- Port of the Sublime Text 2 theme of the same name
 
 ;; Copyright 2013 J Irving
 
