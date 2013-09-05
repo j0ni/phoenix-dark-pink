@@ -1,5 +1,4 @@
-;;; phoenix-dark-pink-theme.el --- Port of the Sublime Text 2 theme of
-;;; the same name
+;;; phoenix-dark-pink-theme.el --- Port of the Sublime Text 2 theme of the same name
 
 ;; Copyright 2013 J Irving
 
@@ -104,23 +103,23 @@
  '(erb-comment-face ((t (:inherit erb-face :foreground "#755273" :background "#101010"))))
  '(erb-comment-delim-face ((t (:inherit erb-face :foreground "#555" :background "#101010"))))
 
- '(rainbow-delimiters-depth-9-face ((t (:foreground "#ffcfff"))))
- '(rainbow-delimiters-depth-8-face ((t (:foreground "#efbfef"))))
- '(rainbow-delimiters-depth-7-face ((t (:foreground "#dfafdf"))))
- '(rainbow-delimiters-depth-6-face ((t (:foreground "#d1afdd"))))
- '(rainbow-delimiters-depth-5-face ((t (:foreground "#c19fcf"))))
- '(rainbow-delimiters-depth-4-face ((t (:foreground "#b18fbf"))))
- '(rainbow-delimiters-depth-3-face ((t (:foreground "#a17faf"))))
- '(rainbow-delimiters-depth-2-face ((t (:foreground "#916f9f"))))
- '(rainbow-delimiters-depth-1-face ((t (:foreground "#815f8f"))))
+ '(rainbow-delimiters-depth-9-face ((t (:foreground "#e1b1ed"))))
+ '(rainbow-delimiters-depth-8-face ((t (:foreground "#dfafdf"))))
+ '(rainbow-delimiters-depth-7-face ((t (:foreground "#d1a1dd"))))
+ '(rainbow-delimiters-depth-6-face ((t (:foreground "#c19fcf"))))
+ '(rainbow-delimiters-depth-5-face ((t (:foreground "#bf8fbf"))))
+ '(rainbow-delimiters-depth-4-face ((t (:foreground "#af7faf"))))
+ '(rainbow-delimiters-depth-3-face ((t (:foreground "#9f6f9f"))))
+ '(rainbow-delimiters-depth-2-face ((t (:foreground "#8f5f8f"))))
+ '(rainbow-delimiters-depth-1-face ((t (:foreground "#815f8d"))))
 
- '(js2-warning-face ((t (:foreground "#dfafdf"))))
- '(js2-error-face ((t (:foreground "#efbfef"))))
- '(js2-jsdoc-tag-face ((t (:foreground "#585858"))))
- '(js2-jsdoc-type-face ((t (:foreground "#787878"))))
- '(js2-jsdoc-value-face ((t (:foreground "#787878"))))
- '(js2-function-param-face ((t (:foreground "#b294bb"))))
- '(js2-external-variable-face ((t (:foreground "#ffbfff"))))
+ '(js2-warning ((t (:foreground "#dfafdf"))))
+ '(js2-error ((t (:foreground "#efbfef"))))
+ '(js2-jsdoc-tag ((t (:foreground "#585858"))))
+ '(js2-jsdoc-type ((t (:foreground "#787878"))))
+ '(js2-jsdoc-value ((t (:foreground "#787878"))))
+ '(js2-function-param ((t (:foreground "#b294bb"))))
+ '(js2-external-variable ((t (:foreground "#ffbfff"))))
 
  '(erc-action-face ((t (:inherit erc-default-face))))
  '(erc-bold-face ((t (:weight bold))))
