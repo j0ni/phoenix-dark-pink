@@ -5,7 +5,7 @@
 
 ;; Author: J Irving <j@lollyshouse.ca>
 ;; URL: http://github.com/j0ni/phoenix-dark-pink
-;; Version: 1.0
+;; Version: 1.01
 
 ;; Code:
 
@@ -14,8 +14,8 @@
 
 (custom-theme-set-faces
  'phoenix-dark-pink
- '(default ((t (:inherit nil :stipple nil :background "#191919" :foreground "#cccccc" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal))))
- '(cursor ((t (:background "#cccccc" :foreground "#191919" :underline nil :weight normal))))
+ '(default ((t (:inherit nil :stipple nil :background "#101010" :foreground "#cccccc" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal))))
+ '(cursor ((t (:background "#cccccc" :foreground "#101010" :underline nil :weight normal))))
  '(fixed-pitch ((t (:underline nil :weight normal :family "PragmataPro"))))
  '(variable-pitch ((t (:family "Sans Serif" :weight normal :underline nil))))
  '(escape-glyph ((t (:weight normal :underline nil :foreground "#d1afdd"))))
@@ -81,28 +81,28 @@
  '(ac-yasnippet-candidate-face ((t (:background "#292929" :foreground "#a582a3"))))
  '(popup-tip-face ((t (:background "#292929" :foreground "#a582a3"))))
  '(popup-scroll-bar-foreground-face ((t (:background "#393939"))))
- '(popup-scroll-bar-background-face ((t (:background "#191919"))))
+ '(popup-scroll-bar-background-face ((t (:background "#101010"))))
 
- '(eval-sexp-fu-flash ((t (:background "#191919" :foreground "white"))))
- '(nrepl-eval-sexp-fu-flash ((t (:background "#191919" :foreground "white"))))
+ '(eval-sexp-fu-flash ((t (:background "#101010" :foreground "white"))))
+ '(nrepl-eval-sexp-fu-flash ((t (:background "#101010" :foreground "white"))))
 
  '(magit-header ((t (:foreground "#dfafdf" :background "#292929" :box (:line-width 1 :color "grey20")))))
  '(magit-log-sha1 ((t (:foreground "#dfafdf" :background "#292929"))))
- '(magit-section-title ((t (:foreground "#dfafdf" :background "#191919"))))
+ '(magit-section-title ((t (:foreground "#dfafdf" :background "#101010"))))
  '(magit-branch ((t (:foreground "#d1afdd"))))
  '(magit-item-highlight ((t (:inherit (highlight-parentheses)))))
 
  '(highlight-parentheses ((t (:inherit highlight))))
- '(show-paren-match-face ((t (:inherit highlight :foreground "#191919" :background "#a582a3"))))
+ '(show-paren-match-face ((t (:inherit highlight :foreground "#101010" :background "#a582a3"))))
 
- '(erb-face ((t (:foreground "#cccccc" :background "#191919"))))
+ '(erb-face ((t (:foreground "#cccccc" :background "#101010"))))
  '(erb-exec-face ((t (:inherit erb-face))))
  '(erb-out-face ((t (:inherit erb-face))))
- '(erb-delim-face ((t (:inherit erb-face :foreground "#efbfef" :background "#191919"))))
+ '(erb-delim-face ((t (:inherit erb-face :foreground "#efbfef" :background "#101010"))))
  '(erb-exec-delim-face ((t (:inherit erb-delim-face))))
- '(erb-out-delim-face ((t (:inherit erb-delim-face :foreground "#efbfef" :background "#191919"))))
- '(erb-comment-face ((t (:inherit erb-face :foreground "#755273" :background "#191919"))))
- '(erb-comment-delim-face ((t (:inherit erb-face :foreground "#555" :background "#191919"))))
+ '(erb-out-delim-face ((t (:inherit erb-delim-face :foreground "#efbfef" :background "#101010"))))
+ '(erb-comment-face ((t (:inherit erb-face :foreground "#755273" :background "#101010"))))
+ '(erb-comment-delim-face ((t (:inherit erb-face :foreground "#555" :background "#101010"))))
 
  '(rainbow-delimiters-depth-9-face ((t (:foreground "#ffcfff"))))
  '(rainbow-delimiters-depth-8-face ((t (:foreground "#efbfef"))))
@@ -136,9 +136,9 @@
  '(erc-nick-default-face ((t (:foreground "#dfafdf" :weight bold))))
  '(erc-my-nick-face ((t (:foreground "#efefef" :weight bold))))
  '(erc-nick-msg-face ((t (:inherit erc-default))))
- '(erc-notice-face ((t (:foreground "#a883a3" :background "#191919"))))
+ '(erc-notice-face ((t (:foreground "#a883a3" :background "#101010"))))
  '(erc-pal-face ((t (:foreground "#efbfef" :weight bold))))
- '(erc-prompt-face ((t (:foreground "#d1afdd" :background "#191919" :weight bold))))
+ '(erc-prompt-face ((t (:foreground "#d1afdd" :background "#101010" :weight bold))))
  '(erc-timestamp-face ((t (:foreground "#787878"))))
  '(erc-underline-face ((t (:underline t))))
 
@@ -150,7 +150,7 @@
  '(w3m-history-current-url ((t (:inherit match))))
  '(w3m-lnum ((t (:foreground "#787878"))))
  '(w3m-lnum-match ((t (:background "#a582a3"
-                                   :foreground "#191919"))))
+                                   :foreground "#101010"))))
  '(w3m-lnum-minibuffer-prompt ((t (:foreground "#efbfff"))))
 
  '(highlight-indentation-face ((t (:inherit highlight))))
