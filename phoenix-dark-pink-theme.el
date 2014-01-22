@@ -1,6 +1,6 @@
 ;;; phoenix-dark-pink-theme.el --- Port of the Sublime Text 2 theme of the same name
 
-;; Copyright 2013 J Irving
+;; Copyright 2013-2014 J Irving
 
 ;; Author: J Irving <j@lollyshouse.ca>
 ;; URL: http://github.com/j0ni/phoenix-dark-pink
