@@ -55,6 +55,11 @@
  '(font-lock-warning-face ((t (:weight normal :underline nil :foreground "#c0af7f" :inherit (error)))))
 
  '(compilation-info ((t (:weight normal :foreground "#f0dfff"))))
+ '(compilation-mode-line-exit ((t (:weight normal :foreground "#f0dfff"))))
+ '(compilation-mode-line-fail ((t (:weight normal :foreground "#e0b0e0"))))
+ '(compilation-mode-line-run ((t (:weight normal :foreground "#787878"))))
+
+ '(warning ((t (:weight normal :foreground "#f0dfff"))))
 
  '(link ((t (:weight normal :underline nil :foreground "#f0dfff"))))
  '(link-visited ((t (:weight normal :underline nil :foreground "#d0bfdf" :inherit (link)))))
@@ -62,11 +67,13 @@
  '(fringe ((t (:background "#191919" :foreground "#585858" :underline nil :weight normal))))
  '(header-line ((t (:weight normal :underline nil :inherit (mode-line)))))
  '(tooltip ((t (:weight normal :underline nil :foreground "#d1afdd" :background "#292929" :inherit (variable-pitch)))))
+
  '(mode-line ((t (:weight normal :underline nil :box nil :foreground "#d1afdd" :background "#2b2b2b"))))
  '(mode-line-buffer-id ((t (:weight normal :underline nil :foreground "#f0dfff"))))
  '(mode-line-emphasis ((t (:weight normal :underline nil))))
  '(mode-line-highlight ((t (:weight normal :underline nil :box nil))))
  '(mode-line-inactive ((t (:weight normal :underline nil :box nil :foreground "#a582a3" :background "#202020" :inherit (mode-line)))))
+
  '(isearch ((t (:weight normal :underline nil :foreground "#d1afdd" :background "#2b2b2b"))))
  '(isearch-fail ((t (:weight normal :underline nil :foreground "#d1afdd" :background "#856283"))))
  '(lazy-highlight ((t (:weight normal :underline nil :foreground "#dfafdf" :background "#2f2f2f"))))
