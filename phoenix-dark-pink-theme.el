@@ -13,7 +13,20 @@
 
 (custom-theme-set-faces
  'phoenix-dark-pink
- '(default ((t (:inherit nil :stipple nil :background "#101010" :foreground "#cccccc" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :width normal))))
+
+ '(default ((t (:inherit nil
+                :stipple nil
+                :background "#101010"
+                :foreground "#cccccc"
+                :inverse-video nil
+                :box nil
+                :strike-through nil
+                :overline nil
+                :underline nil
+                :slant normal
+                :weight normal
+                :width normal))))
+
  '(cursor ((t (:background "#cccccc" :foreground "#101010" :underline nil :weight normal))))
  '(fixed-pitch ((t (:underline nil :weight normal :family "PragmataPro"))))
  '(variable-pitch ((t (:family "Sans Serif" :weight normal :underline nil))))
@@ -90,6 +103,14 @@
  '(magit-section-title ((t (:foreground "#dfafdf" :background "#101010"))))
  '(magit-branch ((t (:foreground "#d1afdd"))))
  '(magit-item-highlight ((t (:inherit (highlight-parentheses)))))
+ '(magit-diff-add ((t (:foreground "#d1afdd" :background "#393939"))))
+ '(magit-diff-del ((t (:foreground "#8f5f8f" :background "#202020"))))
+ '(magit-diff-none ((t (:background "#101010"))))
+ '(magit-diff-hunk-header ((t (:background "#292929"))))
+ '(magit-diff-file-header ((t (:background "#393939"))))
+ '(magit-log-author ((t (:foreground "#f0dfff"))))
+ '(magit-log-head-label-remote ((t (:foreground "#f0dfff" :box t))))
+ '(magit-log-head-label-local ((t (:foreground "#f0bfff" :box t))))
 
  '(highlight-parentheses ((t (:inherit highlight))))
  '(show-paren-match-face ((t (:inherit highlight :foreground "#101010" :background "#a582a3"))))
