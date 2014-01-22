@@ -4,9 +4,14 @@
 
 ;; Author: J Irving <j@lollyshouse.ca>
 ;; URL: http://github.com/j0ni/phoenix-dark-pink
-;; Version: 1.01
+;; Version: 1.1
+
+;; Org-mode mods from Rikard Glans - https://github.com/darrik/phoenix-dark-pink
 
 ;; Code:
+
+(unless (>= 24 emacs-major-version)
+  (error "phoenix-dark-pink-theme requires Emacs 24 or later."))
 
 (deftheme phoenix-dark-pink
   "Phoenix Dark Pink color theme")
@@ -181,7 +186,22 @@
  '(w3m-lnum-minibuffer-prompt ((t (:foreground "#efbfff"))))
 
  '(highlight-indentation-face ((t (:inherit highlight))))
- '(highlight-indentation-current-column-face ((t (:inherit highlight)))))
+ '(highlight-indentation-current-column-face ((t (:inherit highlight))))
+
+ '(org-level-1 ((t (:foreground "#e1b1ed"))))
+ '(org-level-2 ((t (:foreground "#dfafdf"))))
+ '(org-level-3 ((t (:foreground "#d1a1dd"))))
+ '(org-level-4 ((t (:foreground "#c19fcf"))))
+ '(org-level-5 ((t (:foreground "#bf8fbf"))))
+ '(org-level-6 ((t (:foreground "#af7faf"))))
+ '(org-level-7 ((t (:foreground "#9f6f9f"))))
+ '(org-level-8 ((t (:foreground "#8f5f8f"))))
+ '(org-level-9 ((t (:foreground "#815f8d"))))
+ '(org-meta-line ((t (:foreground "#714161"))))
+ '(org-table ((t (:foreground "#c19fcf"))))
+ '(org-document-info-keyword ((t (:foreground "#a582a3"))))
+ '(org-document-title ((t (:foreground "#dfafdf"))))
+ '(org-date ((t (:foreground "#a582a3")))))
 
 ;;;###autoload
 (when load-file-name
@@ -189,5 +209,10 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'phoenix-dark-pink)
+
+;; Local Variables:
+;; no-byte-compile: t
+;; eval: (when (require 'rainbow-mode nil t) (rainbow-mode 1))
+;; End:
 
 ;;; phoenix-dark-pink-theme.el ends here
