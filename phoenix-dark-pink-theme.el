@@ -83,6 +83,8 @@
  '(isearch-fail ((t (:weight normal :underline nil :foreground "#d1afdd" :background "#856283"))))
  '(lazy-highlight ((t (:weight normal :underline nil :foreground "#dfafdf" :background "#2f2f2f"))))
 
+ '(highlight-symbol-face ((t (:underline t :background "#2f2f2f"))))
+
  '(grep-context-face ((t (:foreground "#cccccc"))))
  '(grep-error-face ((t (:foreground "#dfafdf" :underline t))))
  '(grep-hit-face ((t (:foreground "#dfafdf"))))
