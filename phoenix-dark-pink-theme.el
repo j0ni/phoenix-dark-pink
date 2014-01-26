@@ -98,6 +98,8 @@
  '(ido-only-match ((t (:foreground "#dfafdf" :weight bold))))
  '(ido-subdir ((t (:foreground "#a582a3"))))
 
+ '(flx-highlight-face ((t (:foreground "#f0dfff" :weight bold))))
+
  '(linum ((t (:foreground "#787878"))))
 
  '(ac-candidate-face ((t (:background "#292929" :foreground "#a582a3"))))
