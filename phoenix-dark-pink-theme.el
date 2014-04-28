@@ -4,7 +4,7 @@
 
 ;; Author: J Irving <j@lollyshouse.ca>
 ;; URL: http://github.com/j0ni/phoenix-dark-pink
-;; Version: 1.1
+;; Version: 1.2
 
 ;; Org-mode mods from Rikard Glans - https://github.com/darrik/phoenix-dark-pink
 
@@ -79,6 +79,10 @@
  '(mode-line-highlight ((t (:weight normal :underline nil :box nil))))
  '(mode-line-inactive ((t (:weight normal :underline nil :box nil :foreground "#a582a3" :background "#202020" :inherit (mode-line)))))
 
+ '(cider-error-highlight-face ((t (:underline (:style wave :color "#87003f")))))
+ '(cider-warning-highlight-face ((t (:underline (:style wave :color "#654263")))))
+ '(cider-repl-input-face ((t (:weight normal))))
+
  '(isearch ((t (:weight normal :underline nil :foreground "#d1afdd" :background "#2b2b2b"))))
  '(isearch-fail ((t (:weight normal :underline nil :foreground "#d1afdd" :background "#856283"))))
  '(lazy-highlight ((t (:weight normal :underline nil :foreground "#dfafdf" :background "#2f2f2f"))))
@@ -110,6 +114,27 @@
  '(popup-tip-face ((t (:background "#292929" :foreground "#a582a3"))))
  '(popup-scroll-bar-foreground-face ((t (:background "#393939"))))
  '(popup-scroll-bar-background-face ((t (:background "#101010"))))
+
+ '(company-tooltip ((t (:background "#292929" :foreground "#a582a3"))))
+ '(company-tooltip-selection ((t (:background "#393939" :foreground "white"))))
+ '(company-tooltip-mouse ((t (:inherit (company-tooltip-selection)))))
+ '(company-tooltip-common ((t (:background "#393939" :foreground "#d1afdd"))))
+ '(company-tooltip-common-selection ((t (:background "#393939" :foreground "#white"))))
+ '(company-tooltip-annotation ((t (:foreground "#f0dfff" :inherit (company-tooltip)))))
+ '(company-scrollbar-fg ((t (:inherit (company-tooltip)))))
+ '(company-scrollbar-bg ((t (:inherit (company-tooltip)))))
+ '(company-preview ((t (:inherit (company-tooltip-selection)))))
+ '(company-preview-common ((t (:inherit (company-tooltip-common-selection)))))
+ '(company-preview-search ((t (:foreground "#f0dfff" :inherit (company-preview)))))
+ '(company-echo ((t (:foreground "#d1afdd"))))
+ '(company-echo-common ((t (:foreground "#f0dfff"))))
+
+ '(speedbar-button-face ((t (:foreground "#d1afdd"))))
+ '(speedbar-directory-face ((t (:foreground "#efefef"))))
+ '(speedbar-file-face ((t (:foreground "#cccccc"))))
+ '(speedbar-highlight-face ((t (:foreground "#202020" :background "#B294BB"))))
+ '(speedbar-selected-face ((t (:foreground "#f0dfff"))))
+ '(speedbar-tag-face ((t (:foreground "#a582a3"))))
 
  '(eval-sexp-fu-flash ((t (:background "#101010" :foreground "white"))))
  '(nrepl-eval-sexp-fu-flash ((t (:background "#101010" :foreground "white"))))
