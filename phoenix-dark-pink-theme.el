@@ -154,7 +154,7 @@
  '(magit-log-head-label-local ((t (:foreground "#f0bfff" :box t))))
 
  '(highlight-parentheses ((t (:inherit highlight))))
- '(show-paren-match-face ((t (:inherit highlight :foreground "#101010" :background "#a582a3"))))
+ '(show-paren-match-face ((t (:inherit highlight :foreground "#ffcfff" :background "#a582a3"))))
 
  '(erb-face ((t (:foreground "#cccccc" :background "#101010"))))
  '(erb-exec-face ((t (:inherit erb-face))))
