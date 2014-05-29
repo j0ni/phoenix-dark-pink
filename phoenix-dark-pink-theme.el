@@ -119,7 +119,7 @@
  '(company-tooltip-selection ((t (:background "#393939" :foreground "white"))))
  '(company-tooltip-mouse ((t (:inherit (company-tooltip-selection)))))
  '(company-tooltip-common ((t (:background "#393939" :foreground "#d1afdd"))))
- '(company-tooltip-common-selection ((t (:background "#393939" :foreground "#white"))))
+ '(company-tooltip-common-selection ((t (:background "#393939" :foreground "white"))))
  '(company-tooltip-annotation ((t (:foreground "#f0dfff" :inherit (company-tooltip)))))
  '(company-scrollbar-fg ((t (:inherit (company-tooltip)))))
  '(company-scrollbar-bg ((t (:inherit (company-tooltip)))))
