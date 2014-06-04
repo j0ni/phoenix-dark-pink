@@ -153,6 +153,12 @@
  '(magit-log-head-label-remote ((t (:foreground "#f0dfff" :box t))))
  '(magit-log-head-label-local ((t (:foreground "#f0bfff" :box t))))
 
+ '(git-gutter:separator ((t (:background "#101010"))))
+ '(git-gutter:modified ((t (:background "#101010"))))
+ '(git-gutter:added ((t (:background "#101010"))))
+ '(git-gutter:deleted ((t (:background "#101010"))))
+ '(git-gutter:unchanged ((t (:background "#101010"))))
+
  '(highlight-parentheses ((t (:inherit highlight))))
  '(show-paren-match-face ((t (:inherit highlight :foreground "#ffcfff" :background "#a582a3"))))
 
