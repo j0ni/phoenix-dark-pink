@@ -45,7 +45,7 @@
 
  '(font-lock-builtin-face ((t (:weight normal :underline nil :foreground "#ddd"))))
  '(font-lock-comment-delimiter-face ((t (:weight normal :underline nil :foreground "#555" :inherit font-lock-comment-face))))
- '(font-lock-comment-face ((t (:foreground "#755273" :underline nil :weight normal))))
+ '(font-lock-comment-face ((t (:foreground "grey50" :underline nil :slant italic :weight normal))))
  '(font-lock-constant-face ((t (:foreground "#B294BB" :underline nil :weight normal))))
  '(font-lock-doc-face ((t (:weight normal :underline nil :foreground "#a582a3" :inherit (font-lock-string-face)))))
  '(font-lock-function-name-face ((t (:foreground "#EFEFEF" :underline nil :weight normal))))
