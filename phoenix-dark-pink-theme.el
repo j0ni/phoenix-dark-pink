@@ -155,11 +155,11 @@
 
  '(window-number-face ((t (:background "#2b2b2b" :foreground "#f0dfff"))))
 
- '(git-gutter:separator ((t (:background "#101010"))))
- '(git-gutter:modified ((t (:background "#101010"))))
- '(git-gutter:added ((t (:background "#101010"))))
- '(git-gutter:deleted ((t (:background "#101010"))))
- '(git-gutter:unchanged ((t (:background "#101010"))))
+ '(git-gutter:separator ((t (:foreground "#101010E" :background "#101010"))))
+ '(git-gutter:modified ((t (:foreground "#d1afdd" :background "#101010"))))
+ '(git-gutter:added ((t (:foreground "#f0dfff" :background "#101010"))))
+ '(git-gutter:deleted ((t (:foreground "#f582a3"  :background "#101010"))))
+ '(git-gutter:unchanged ((t (:foreground "#101010" :background "#101010"))))
 
  '(highlight-parentheses ((t (:inherit highlight))))
  '(show-paren-match-face ((t (:inherit highlight :foreground "#ffcfff" :background "#a582a3"))))
