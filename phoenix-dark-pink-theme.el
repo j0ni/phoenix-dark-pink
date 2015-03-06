@@ -83,8 +83,8 @@
  '(cider-warning-highlight-face ((t (:underline (:style wave :color "#654263")))))
  '(cider-repl-input-face ((t (:weight normal))))
 
- '(isearch ((t (:weight normal :underline nil :foreground "#d1afdd" :background "#2b2b2b"))))
- '(isearch-fail ((t (:weight normal :underline nil :foreground "#d1afdd" :background "#856283"))))
+ '(isearch ((t (:weight normal :underline nil :background "#d1afdd" :foreground "#2b2b2b"))))
+ '(isearch-fail ((t (:weight normal :underline nil :foreground "#d1afdd" :background "#87003f"))))
  '(lazy-highlight ((t (:weight normal :underline nil :foreground "#dfafdf" :background "#2f2f2f"))))
 
  '(highlight-symbol-face ((t (:underline t :background "#2f2f2f"))))
@@ -210,6 +210,18 @@
  '(erc-prompt-face ((t (:foreground "#d1afdd" :background "#101010" :weight bold))))
  '(erc-timestamp-face ((t (:foreground "#787878"))))
  '(erc-underline-face ((t (:underline t))))
+
+ '(circe-prompt-face ((t (:weight bold :foreground "#d1afdd"))))
+ '(circe-server-face ((t (:foreground "#a883a3"))))
+ '(circe-highlight-nick-face ((t (:weight bold :inherit hover-highlight))))
+ '(circe-my-message-face ((t (:foreground "#815f8d"))))
+ '(circe-originator-face ((t (:foreground "#dfafdf"))))
+ '(circe-topic-diff-new-face ((t (:inherit git-gutter:added))))
+ '(circe-topic-diff-removed-face ((t (:inherit git-gutter:deleted))))
+ '(circe-fool-face ((t (:foreground "grey40"))))
+ '(lui-button-face ((t (:inherit link))))
+ '(lui-time-stamp-face ((t (:inherit erc-timestamp-face))))
+ '(lui-highlight-face ((t (:inherit hover-highlight))))
 
  '(w3m-anchor ((t (:inherit link))))
  '(w3m-arrived-anchor ((t (:foreground "#ffbfff"))))
