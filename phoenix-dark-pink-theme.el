@@ -220,7 +220,7 @@
  '(circe-prompt-face ((t (:weight bold :foreground "#d1afdd"))))
  '(circe-server-face ((t (:foreground "#a883a3"))))
  '(circe-highlight-nick-face ((t (:weight bold :inherit hover-highlight))))
- '(circe-my-message-face ((t (:foreground "#815f8d"))))
+ '(circe-my-message-face ((t (:foreground "Thistle"))))
  '(circe-originator-face ((t (:foreground "#dfafdf"))))
  '(circe-topic-diff-new-face ((t (:inherit git-gutter:added))))
  '(circe-topic-diff-removed-face ((t (:inherit git-gutter:deleted))))
