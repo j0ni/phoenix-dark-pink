@@ -10,7 +10,7 @@
 
 ;; Code:
 
-(unless (>= 24 emacs-major-version)
+(unless (>= emacs-major-version 24)
   (error "phoenix-dark-pink-theme requires Emacs 24 or later."))
 
 (deftheme phoenix-dark-pink
