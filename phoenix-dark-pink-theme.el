@@ -23,10 +23,10 @@
          (p4 "#d1afdd")
          (p5 "#d1a1dd")
          (p6 "#c19fcf")
-         (p7 "#bf8fbf") ;; rainbow/org only
+         (p7 "#bf8fbf")
          (p8 "#b294bb")
-         (p9 "#a582a3") ;; rainbow/org only
-         (p10 "#9f6f9f") ;; rainbow/org only
+         (p9 "#a582a3")
+         (p10 "#9f6f9f")
          (p11 "#8f5f8f")
          (p12 "#815f8d")
          (p13 "#755273")
@@ -92,9 +92,9 @@
   `(trailing-whitespace ((t (:background ,p3 :underline nil :weight normal))))
 
   `(font-lock-builtin-face ((t (:weight normal :underline nil :foreground ,offwhite3))))
-  `(font-lock-comment-face ((t (:foreground "grey60" :underline nil :slant italic :weight normal))))
-  `(font-lock-comment-delimiter-face ((t (:weight normal :underline nil :foreground "grey60" :inherit font-lock-comment-face))))
-  `(font-lock-doc-face ((t (:weight normal :underline nil :foreground "grey60" :inherit (font-lock-string-face)))))
+  `(font-lock-comment-face ((t (:foreground ,p9 :underline nil :slant italic :weight normal))))
+  `(font-lock-comment-delimiter-face ((t (:weight normal :underline nil :foreground ,p12 :inherit font-lock-comment-face))))
+  `(font-lock-doc-face ((t (:weight normal :underline nil :foreground ,alarmed :inherit (font-lock-string-face)))))
   `(font-lock-string-face ((t (:foreground "Thistle" :underline nil :weight normal))))
   `(font-lock-constant-face ((t (:foreground ,p8 :underline nil :weight normal))))
   `(font-lock-function-name-face ((t (:foreground ,offwhite1 :underline nil :weight normal))))
@@ -347,7 +347,7 @@
   ;; `(mu4e-region-code ((t ())))
   ;; `(mu4e-compose-header-face ((t ())))
 
-  )
+  `(indent-guide-face ((t (:foreground ,dp3)))))
 
 ;;;###autoload
 (when load-file-name
