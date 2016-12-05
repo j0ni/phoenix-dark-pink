@@ -266,8 +266,8 @@
  '(ivy-confirm-face ((t (:foreground "#ffcfff"))))
  '(ivy-match-required-face ((t (:foreground "#ffcfff"))))
  '(ivy-subdir ((t (:background "#412b3f" :foreground "#ccc"))))
- '(ivy-remote ((t (:background "#412b3f" :foreground "#ff5f8d"))))
- '(ivy-virtual ((t (:background "#412b3f" :foreground "#ff5f8d")))))
+ '(ivy-remote ((t (:background "#412b3f" :foreground "pink"))))
+ '(ivy-virtual ((t (:background "#412b3f" :foreground "pink")))))
 
 ;;;###autoload
 (when load-file-name
