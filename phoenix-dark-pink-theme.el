@@ -256,7 +256,18 @@
  '(org-table ((t (:foreground "#c19fcf"))))
  '(org-document-info-keyword ((t (:foreground "#a582a3"))))
  '(org-document-title ((t (:foreground "#dfafdf"))))
- '(org-date ((t (:foreground "#a582a3")))))
+ '(org-date ((t (:foreground "#a582a3"))))
+
+ '(ivy-current-match ((t (:background "#dfafdf" :foreground "#101010"))))
+ '(ivy-minibuffer-match-face-1 ((t (:background "#815f8d" :foreground "#ffcfff"))))
+ '(ivy-minibuffer-match-face-2 ((t (:background "#815f8d" :foreground "#ffcfff"))))
+ '(ivy-minibuffer-match-face-3 ((t (:background "#815f8d" :foreground "#ffcfff"))))
+ '(ivy-minibuffer-match-face-4 ((t (:background "#815f8d" :foreground "#ffcfff"))))
+ '(ivy-confirm-face ((t (:foreground "#ffcfff"))))
+ '(ivy-match-required-face ((t (:foreground "#ffcfff"))))
+ '(ivy-subdir ((t (:background "#412b3f" :foreground "#ccc"))))
+ '(ivy-remote ((t (:background "#412b3f" :foreground "#ff5f8d"))))
+ '(ivy-virtual ((t (:background "#412b3f" :foreground "#ff5f8d")))))
 
 ;;;###autoload
 (when load-file-name
