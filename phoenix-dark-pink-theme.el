@@ -15,9 +15,6 @@
 
 ;; some old p7s:
 
-;; "#a582a3"
-;; (p7 "#af7faf") ;; rainbow/org only
-
 (defmacro define-phoenix-dark-pink-theme (&rest body)
   `(let ((p0 "#ffcfff")
          (p1 "#efbfef")
