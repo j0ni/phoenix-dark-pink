@@ -1,10 +1,10 @@
 ;;; phoenix-dark-pink-theme.el --- Port of the Sublime Text 2 theme of the same name
 
-;; Copyright 2013-2014 J Irving
+;; Copyright 2013-2016 J Irving
 
 ;; Author: J Irving <j@lollyshouse.ca>
 ;; URL: http://github.com/j0ni/phoenix-dark-pink
-;; Version: 1.2
+;; Version: 1.3
 
 ;; Org-mode mods from Rikard Glans - https://github.com/darrik/phoenix-dark-pink
 
@@ -168,7 +168,7 @@
  '(git-gutter:unchanged ((t (:foreground "#101010" :background "#101010"))))
 
  '(highlight-parentheses ((t (:inherit highlight))))
- '(show-paren-match-face ((t (:inherit highlight :foreground "#ffcfff" :background "#a582a3"))))
+ '(show-paren-match ((t (:inherit highlight :foreground "#ffcfff" :background "#a582a3"))))
 
  '(erb-face ((t (:foreground "#cccccc" :background "#101010"))))
  '(erb-exec-face ((t (:inherit erb-face))))
