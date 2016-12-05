@@ -97,7 +97,7 @@
   `(font-lock-doc-face ((t (:weight normal :underline nil :foreground ,alarmed :inherit (font-lock-string-face)))))
   `(font-lock-string-face ((t (:foreground "Thistle" :underline nil :weight normal))))
   `(font-lock-constant-face ((t (:foreground ,p8 :underline nil :weight normal))))
-  `(font-lock-function-name-face ((t (:foreground ,offwhite1 :underline nil :weight normal))))
+  `(font-lock-function-name-face ((t (:foreground ,offpink1 :underline nil :weight normal))))
   `(font-lock-keyword-face ((t (:foreground ,p3 :underline nil :weight normal))))
   `(font-lock-negation-char-face ((t (:weight normal :underline nil :foreground ,fg))))
   `(font-lock-preprocessor-face ((t (:weight normal :underline nil :foreground ,p3 :inherit (font-lock-builtin-face)))))
