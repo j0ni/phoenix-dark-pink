@@ -1,4 +1,4 @@
-;;; phoenix-dark-pink-theme.el --- Port of the Sublime Text 2 theme of the same name
+;;; phoenix-dark-pink-theme.el --- Originally a port of the Sublime Text 2 theme
 
 ;; Copyright 2013-2016 J Irving
 
@@ -64,19 +64,18 @@
      (custom-theme-set-faces 'phoenix-dark-pink ,@body)))
 
 (define-phoenix-dark-pink-theme
-  `(default                             ((t (
-                                             :inherit nil
-                                             :stipple nil
-                                             :background ,bg
-                                             :foreground ,fg
-                                             :inverse-video nil
-                                             :box nil
-                                             :strike-through nil
-                                             :overline nil
-                                             :underline nil
-                                             :slant normal
-                                             :weight normal
-                                             :width normal))))
+  `(default                                   ((t (:inherit nil
+                                                   :stipple nil
+                                                   :background ,bg
+                                                   :foreground ,fg
+                                                   :inverse-video nil
+                                                   :box nil
+                                                   :strike-through nil
+                                                   :overline nil
+                                                   :underline nil
+                                                   :slant normal
+                                                   :weight normal
+                                                   :width normal))))
 
   ;; Another special face is the cursor face. On graphical displays, the
   ;; background color of this face is used to draw the text cursor. None of the
