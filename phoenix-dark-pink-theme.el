@@ -56,7 +56,6 @@
          (silverfox "#787878")
          (sadsilverfox "#585858")
 
-
          (b1 "#202020")
          (b2 "#2d2d2d")
          (b3 "#393939"))
@@ -96,6 +95,7 @@
   `(shadow                                    ((t (:weight normal :underline nil :foreground ,offwhite4))))
   `(secondary-selection                       ((t (:weight normal :underline nil :background ,b3))))
   `(trailing-whitespace                       ((t (:weight normal :underline nil :background ,p3))))
+  `(custom-state                              ((t (:foreground ,alarmed))))
 
   `(font-lock-builtin-face                    ((t (:weight normal :underline nil :foreground ,offwhite3))))
   `(font-lock-comment-face                    ((t (:weight normal :underline nil :foreground ,p9 :slant italic))))
@@ -127,11 +127,11 @@
   `(header-line                               ((t (:weight normal :underline nil :inherit (mode-line)))))
   `(tooltip                                   ((t (:weight normal :underline nil :foreground ,p3 :background ,b2 :inherit (variable-pitch)))))
 
-  `(mode-line                                 ((t (:weight normal :underline nil :box nil :foreground ,p3 :background ,b2))))
+  `(mode-line                                 ((t (:weight normal :underline nil :box (:color ,p7 :line-width 1) :foreground ,p3 :background ,b2))))
   `(mode-line-buffer-id                       ((t (:weight normal :underline nil :foreground ,offpink1))))
   `(mode-line-emphasis                        ((t (:weight normal :underline nil))))
   `(mode-line-highlight                       ((t (:weight normal :underline nil :box nil))))
-  `(mode-line-inactive                        ((t (:weight normal :underline nil :box nil :foreground ,p7 :background ,b1 :inherit (mode-line)))))
+  `(mode-line-inactive                        ((t (:weight normal :underline nil :box (:color ,p13 :line-width 1) :foreground ,p7 :background ,b1 :inherit (mode-line)))))
 
   `(cider-error-highlight-face                ((t (:underline (:style wave :color ,alarmed)))))
   `(cider-warning-highlight-face              ((t (:underline (:style wave :color ,warned)))))
@@ -351,6 +351,8 @@
   `(mu4e-compose-separator-face               ((t (:foreground ,silverfox))))
   ;; `(mu4e-compose-header-face ((t (:foreground ,offwhite3))))
   ;; `(mu4e-region-code ((t (:foreground ,offwhite3))))
+
+  `(message-mml                               ((t (:foreground ,p0))))
 
   `(indent-guide-face                         ((t (:foreground ,dp3)))))
 
