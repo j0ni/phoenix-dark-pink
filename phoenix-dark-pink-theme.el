@@ -189,8 +189,8 @@
   `(speedbar-selected-face                    ((t (:foreground ,offpink1))))
   `(speedbar-tag-face                         ((t (:foreground ,p7))))
 
-  `(eval-sexp-fu-flash                        ((t (:background ,bg :foreground ,plegit))))
-  `(nrepl-eval-sexp-fu-flash                  ((t (:background ,bg :foreground ,plegit))))
+  `(eval-sexp-fu-flash                        ((t (:background ,bg :foreground ,offpink1))))
+  `(nrepl-eval-sexp-fu-flash                  ((t (:background ,bg :foreground ,offpink1))))
 
   `(magit-header                              ((t (:foreground ,p2 :background ,b2 :box (:line-width 1 :color ,b3)))))
   `(magit-log-sha1                            ((t (:foreground ,p2 :background ,b2))))
