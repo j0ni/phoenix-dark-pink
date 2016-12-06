@@ -670,21 +670,32 @@
 
   ;; mu4e -- email
 
-  ;; `(mu4e-unread-face ((t ())))
+  `(mu4e-unread-face                          ((t (:foreground ,offpink1))))
   ;; `(mu4e-moved-face ((t ())))
   ;; `(mu4e-trashed-face ((t ())))
   ;; `(mu4e-draft-face ((t ())))
-  ;; `(mu4e-flagged-face ((t ())))
-  ;; `(mu4e-replied-face ((t ())))
-  ;; `(mu4e-forwarded-face ((t ())))
+  `(mu4e-flagged-face                         ((t (:foreground ,b1))))
+
+  `(mu4e-replied-face                         ((t (:foreground ,fg))))
+
+  `(mu4e-forwarded-face                       ((t (:foreground ,fg))))
+
   ;; `(mu4e-header-face ((t ())))
   ;; `(mu4e-header-title-face ((t ())))
-  ;; `(mu4e-header-highlight-face ((t ())))
+
+  `(mu4e-header-highlight-face                ((t (:foreground ,offwhite1
+                                                   :background ,dp2))))
+
   ;; `(mu4e-header-marks-face ((t ())))
+
   `(mu4e-header-key-face                      ((t (:foreground ,p6))))
+
   `(mu4e-header-value-face                    ((t (:foreground ,offpink2))))
+
   `(mu4e-special-header-value-face            ((t (:foreground ,offpink1))))
+
   `(mu4e-link-face                            ((t (:foreground ,p0))))
+
   ;; `(mu4e-contact-face ((t ())))
   ;; `(mu4e-highlight-face ((t ())))
   ;; `(mu4e-title-face ((t ())))
@@ -692,19 +703,24 @@
   ;; `(mu4e-modeline-face ((t ())))
   ;; `(mu4e-view-body-face ((t ())))
   ;; `(mu4e-footer-face ((t ())))
+
   `(mu4e-url-number-face                      ((t (:foreground ,p6))))
   `(mu4e-attach-number-face                   ((t (:foreground ,p6))))
-  `(mu4e-cited-1-face                         ((t (:foreground ,p0))))
-  `(mu4e-cited-2-face                         ((t (:foreground ,p2))))
-  `(mu4e-cited-3-face                         ((t (:foreground ,p4))))
-  `(mu4e-cited-4-face                         ((t (:foreground ,p6))))
-  `(mu4e-cited-5-face                         ((t (:foreground ,p8))))
-  `(mu4e-cited-6-face                         ((t (:foreground ,p10))))
-  `(mu4e-cited-7-face                         ((t (:foreground ,p12))))
+
+  `(mu4e-cited-1-face                         ((t (:foreground ,p7))))
+  `(mu4e-cited-2-face                         ((t (:foreground ,p12))))
+  `(mu4e-cited-3-face                         ((t (:foreground ,silverfox))))
+  `(mu4e-cited-4-face                         ((t (:foreground ,p7))))
+  `(mu4e-cited-5-face                         ((t (:foreground ,p12))))
+  `(mu4e-cited-6-face                         ((t (:foreground ,silverfox))))
+  `(mu4e-cited-7-face                         ((t (:foreground ,p7))))
+
   ;; `(mu4e-system-face ((t (:foreground , offwhite3))))
   ;; `(mu4e-ok-face ((t (:foreground))))
   ;; `(mu4e-warning-face ((t (:foreground ,offwhite3))))
+
   `(mu4e-compose-separator-face               ((t (:foreground ,silverfox))))
+
   ;; `(mu4e-compose-header-face ((t (:foreground ,offwhite3))))
   ;; `(mu4e-region-code ((t (:foreground ,offwhite3))))
 
