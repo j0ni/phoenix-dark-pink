@@ -13,8 +13,6 @@
 (unless (>= emacs-major-version 24)
   (error "phoenix-dark-pink-theme requires Emacs 24 or later."))
 
-;; some old p7s:
-
 (defmacro define-phoenix-dark-pink-theme (&rest body)
   `(let ((p0 "#ffcfff")
          (p1 "#efbfef")
@@ -193,15 +191,27 @@
   `(nrepl-eval-sexp-fu-flash                  ((t (:background ,bg :foreground ,offpink1))))
 
   `(magit-header                              ((t (:foreground ,p2 :background ,b2 :box (:line-width 1 :color ,b3)))))
+  `(magit-header-line                         ((t (:foreground ,p2 :background ,b2 :box (:line-width 1 :color ,b3)))))
   `(magit-log-sha1                            ((t (:foreground ,p2 :background ,b2))))
   `(magit-section-title                       ((t (:foreground ,p2 :background ,bg))))
+  `(magit-section-heading                     ((t (:foreground ,p0 :background ,bg))))
   `(magit-branch                              ((t (:foreground ,p3))))
+  `(magit-branch-remote                       ((t (:foreground ,p7))))
+  `(magit-branch-local                        ((t (:foreground ,p1))))
   `(magit-item-highlight                      ((t (:inherit (highlight-parentheses)))))
+
   `(magit-diff-add                            ((t (:foreground ,p3 :background ,b3))))
   `(magit-diff-del                            ((t (:foreground ,p9 :background ,b1))))
   `(magit-diff-none                           ((t (:background ,bg))))
   `(magit-diff-hunk-header                    ((t (:background ,b2))))
   `(magit-diff-file-header                    ((t (:background ,b3))))
+  `(magit-diff-removed-highlight              ((t (:background ,sadsilverfox))))
+  `(magit-diff-added-highlight                ((t (:background ,dp3))))
+  `(magit-diff-removed                        ((t (:background ,b1))))
+  `(magit-diff-added                          ((t (:background ,dp2))))
+  `(diff-refine-added                         ((t (:background ,p4 :foreground ,dp3))))
+  `(diff-refine-removed                       ((t (:background ,offwhite4 :foreground ,b1))))
+
   `(magit-log-author                          ((t (:foreground ,offpink1))))
   `(magit-log-head-label-remote               ((t (:foreground ,offpink1 :box t))))
   `(magit-log-head-label-local                ((t (:foreground ,p1 :box t))))
@@ -346,7 +356,7 @@
   `(mu4e-cited-6-face                         ((t (:foreground ,p10))))
   `(mu4e-cited-7-face                         ((t (:foreground ,p12))))
   ;; `(mu4e-system-face ((t (:foreground , offwhite3))))
-  ;; `(mu4e-ok-face ((t (:foreground ,offwhite3))))
+  ;; `(mu4e-ok-face ((t (:foreground))))
   ;; `(mu4e-warning-face ((t (:foreground ,offwhite3))))
   `(mu4e-compose-separator-face               ((t (:foreground ,silverfox))))
   ;; `(mu4e-compose-header-face ((t (:foreground ,offwhite3))))
