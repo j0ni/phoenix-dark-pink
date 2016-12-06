@@ -34,6 +34,7 @@
 
          (plegit "pink")
 
+         (damned "red")
          (alarmed "#f582a3")
          (warned "#87003f")
          (weirdyellow "#c0af7f")
@@ -137,7 +138,7 @@
 
   `(font-lock-doc-face                        ((t (:weight normal
                                                    :underline nil
-                                                   :foreground ,alarmed
+                                                   :foreground ,damned
                                                    :inherit (font-lock-string-face)))))
 
   `(font-lock-string-face                     ((t (:weight normal
@@ -183,7 +184,7 @@
 
   `(font-lock-warning-face                    ((t (:weight normal
                                                    :underline nil
-                                                   :foreground ,weirdyellow
+                                                   :foreground ,damned
                                                    :inherit (error)))))
 
   `(compilation-info                          ((t (:weight normal
@@ -461,7 +462,7 @@
   `(git-gutter:added                          ((t (:foreground ,offpink1
                                                    :background ,bg))))
 
-  `(git-gutter:deleted                        ((t (:foreground ,alarmed
+  `(git-gutter:deleted                        ((t (:foreground ,damned
                                                    :background ,bg))))
 
   `(git-gutter:unchanged                      ((t (:foreground ,bg
