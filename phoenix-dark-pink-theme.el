@@ -125,11 +125,11 @@
   `(header-line                               ((t (:weight normal :underline nil :inherit (mode-line)))))
   `(tooltip                                   ((t (:weight normal :underline nil :foreground ,p3 :background ,b2 :inherit (variable-pitch)))))
 
-  `(mode-line                                 ((t (:weight normal :underline nil :box (:color ,p7 :line-width 1) :foreground ,p3 :background ,b2))))
+  `(mode-line                                 ((t (:weight normal :underline nil :box (:style released-button :color ,dp3 :line-width 1) :foreground ,p3 :background ,b2))))
+  `(mode-line-inactive                        ((t (:weight normal :underline nil :box (:style released-button :color ,dp1 :line-width 1) :foreground ,p7 :background ,b1 :inherit (mode-line)))))
   `(mode-line-buffer-id                       ((t (:weight normal :underline nil :foreground ,offpink1))))
   `(mode-line-emphasis                        ((t (:weight normal :underline nil))))
   `(mode-line-highlight                       ((t (:weight normal :underline nil :box nil))))
-  `(mode-line-inactive                        ((t (:weight normal :underline nil :box (:color ,p13 :line-width 1) :foreground ,p7 :background ,b1 :inherit (mode-line)))))
 
   `(cider-error-highlight-face                ((t (:underline (:style wave :color ,alarmed)))))
   `(cider-warning-highlight-face              ((t (:underline (:style wave :color ,warned)))))
