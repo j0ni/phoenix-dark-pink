@@ -8,7 +8,7 @@ functional for me.
 
 I will likely update it, focusing on fixing it for Lisp, Elisp,
 Clojure, Clojurescript, Javascript, Go, Haskell, Magit, mu4e, Circe,
-Rust, C and other modes I find useful (read "spend most of my time in).
+Rust, C and other modes I find useful (read "spend most of my time in").
 
 ## Screenshot
 
