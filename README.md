@@ -1,5 +1,7 @@
 # Phoenix Dark Pink
 
+[![MELPA](https://melpa.org/packages/phoenix-dark-pink-theme-badge.svg)](https://melpa.org/#/phoenix-dark-pink-theme)
+
 This is a port of the Phoenix Dark Pink theme I found through Sublime
 Text 2's package control plugin. It's a bit rough, but seems
 functional for me.
