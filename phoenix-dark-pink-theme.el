@@ -1,6 +1,6 @@
 ;;; phoenix-dark-pink-theme.el --- Originally a port of the Sublime Text 2 theme
 
-;; Copyright 2013-2016 J Irving
+;; Copyright 2013-2017 J Irving
 
 ;; Author: J Irving <j@lollyshouse.ca>
 ;; URL: http://github.com/j0ni/phoenix-dark-pink
@@ -128,12 +128,12 @@
 
   `(font-lock-comment-face                    ((t (:weight normal
                                                    :underline nil
-                                                   :foreground ,p9
+                                                   :foreground ,silverfox
                                                    :slant italic))))
 
   `(font-lock-comment-delimiter-face          ((t (:weight normal
                                                    :underline nil
-                                                   :foreground ,p12
+                                                   :foreground ,sadsilverfox
                                                    :inherit font-lock-comment-face))))
 
   `(font-lock-doc-face                        ((t (:weight normal
