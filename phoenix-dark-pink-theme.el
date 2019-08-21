@@ -528,9 +528,9 @@
   `(rainbow-delimiters-depth-6-face           ((t (:foreground ,p7))))
   `(rainbow-delimiters-depth-5-face           ((t (:foreground ,p9))))
   `(rainbow-delimiters-depth-4-face           ((t (:foreground ,p11))))
-  `(rainbow-delimiters-depth-3-face           ((t (:foreground ,p13))))
-  `(rainbow-delimiters-depth-2-face           ((t (:foreground ,p2))))
-  `(rainbow-delimiters-depth-1-face           ((t (:foreground ,p4))))
+  `(rainbow-delimiters-depth-3-face           ((t (:foreground ,p2))))
+  `(rainbow-delimiters-depth-2-face           ((t (:foreground ,p4))))
+  `(rainbow-delimiters-depth-1-face           ((t (:foreground ,p6))))
 
   ;; Javascript
 
