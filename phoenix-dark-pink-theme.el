@@ -4,7 +4,7 @@
 
 ;; Author: J Irving <j@lollyshouse.ca>
 ;; URL: http://github.com/j0ni/phoenix-dark-pink
-;; Version: 2
+;; Version: 3
 
 ;; This file is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
