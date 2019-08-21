@@ -1,6 +1,6 @@
 ;;; phoenix-dark-pink-theme.el --- Originally a port of the Sublime Text 2 theme
 
-;; Copyright 2013-2017 J Irving
+;; Copyright 2013-2019 J Irving
 
 ;; Author: J Irving <j@lollyshouse.ca>
 ;; URL: http://github.com/j0ni/phoenix-dark-pink
@@ -42,16 +42,18 @@
          (p12 "#815f8d")
          (p13 "#755273")
 
-         (fg "#cccccc")
+         (fg "#e0e0e0")
          (bg "#101010")
 
          (plegit "pink")
 
          (damned "red")
-         (alarmed "#f582a3")
-         (warned "#87003f")
-         (weirdyellow "#c0af7f")
+         (alarmed "#ff79c6")
+         (warned "#e64747")
+         (weirdyellow "#ffb86c")
+         (yaygreen "#50fa7b")
 
+         (dp0 "#201010")
          (dp1 "#31182d")
          (dp2 "#412b3f")
          (dp3 "#714161")
@@ -65,7 +67,8 @@
          (offwhite3 "#dddddd")
          (offwhite4 "#b3b3b3")
 
-         (silverfox "#787878")
+         (brightfox "#939393")
+         (silverfox "#7a7a7a")
          (sadsilverfox "#585858")
 
          (b1 "#202020")
@@ -142,33 +145,36 @@
   `(font-lock-comment-face                    ((t (:weight normal
                                                    :underline nil
                                                    :foreground ,silverfox
+                                                   :background ,b1
                                                    :slant italic))))
 
   `(font-lock-comment-delimiter-face          ((t (:weight normal
                                                    :underline nil
-                                                   :foreground ,sadsilverfox
-                                                   :inherit font-lock-comment-face))))
+                                                   :foreground ,silverfox
+                                                   :inherit (font-lock-comment-face)))))
 
   `(font-lock-doc-face                        ((t (:weight normal
                                                    :underline nil
-                                                   :foreground ,damned
+                                                   :foreground ,plegit
+                                                   :background ,b1
                                                    :inherit (font-lock-string-face)))))
 
   `(font-lock-string-face                     ((t (:weight normal
                                                    :underline nil
+                                                   :background ,dp0
                                                    :foreground ,offpink3))))
 
   `(font-lock-constant-face                   ((t (:weight normal
                                                    :underline nil
-                                                   :foreground ,p8))))
+                                                   :foreground ,p1))))
 
-  `(font-lock-function-name-face              ((t (:weight normal
+  `(font-lock-function-name-face              ((t (:weight bold
                                                    :underline nil
                                                    :foreground ,offpink1))))
 
-  `(font-lock-keyword-face                    ((t (:weight normal
+  `(font-lock-keyword-face                    ((t (:weight bold
                                                    :underline nil
-                                                   :foreground ,p3))))
+                                                   :foreground ,p1))))
 
   `(font-lock-negation-char-face              ((t (:weight normal
                                                    :underline nil
@@ -179,21 +185,19 @@
                                                    :foreground ,p3
                                                    :inherit (font-lock-builtin-face)))))
 
-  `(font-lock-regexp-grouping-backslash       ((t (:weight normal
-                                                   :underline nil
-                                                   :inherit (bold)))))
+  `(font-lock-regexp-grouping-backslash       ((t (:weight bold
+                                                   :underline nil))))
 
-  `(font-lock-regexp-grouping-construct       ((t (:weight normal
-                                                   :underline nil
-                                                   :inherit (bold)))))
+  `(font-lock-regexp-grouping-construct       ((t (:weight bold
+                                                   :underline nil))))
 
   `(font-lock-type-face                       ((t (:weight normal
                                                    :underline nil
-                                                   :foreground ,offwhite2))))
+                                                   :foreground ,p1))))
 
   `(font-lock-variable-name-face              ((t (:weight normal
                                                    :underline nil
-                                                   :foreground ,offwhite1))))
+                                                   :foreground ,fg))))
 
   `(font-lock-warning-face                    ((t (:weight normal
                                                    :underline nil
@@ -213,7 +217,7 @@
                                                    :foreground ,silverfox))))
 
   `(warning                                   ((t (:weight normal
-                                                   :foreground ,offpink1))))
+                                                   :foreground ,warned))))
 
   `(link                                      ((t (:weight normal
                                                    :underline nil
@@ -247,7 +251,7 @@
 
   `(mode-line                                 ((t (:weight normal
                                                    :underline nil
-                                                   :box (:style released-button :color ,dp3 :line-width 2)
+                                                   :box (:style released-button :color ,dp2 :line-width 2)
                                                    :foreground ,p3
                                                    :background ,b2))))
 
@@ -262,7 +266,7 @@
                                                    :underline nil
                                                    :foreground ,offpink1))))
 
-  `(mode-line-emphasis                        ((t (:weight normal
+  `(mode-line-emphasis                        ((t (:weight bold
                                                    :underline nil))))
 
   `(mode-line-highlight                       ((t (:weight normal
@@ -519,14 +523,14 @@
   ;; Rainbow delimiters
 
   `(rainbow-delimiters-depth-9-face           ((t (:foreground ,p1))))
-  `(rainbow-delimiters-depth-8-face           ((t (:foreground ,p2))))
-  `(rainbow-delimiters-depth-7-face           ((t (:foreground ,p3))))
-  `(rainbow-delimiters-depth-6-face           ((t (:foreground ,p4))))
-  `(rainbow-delimiters-depth-5-face           ((t (:foreground ,p5))))
-  `(rainbow-delimiters-depth-4-face           ((t (:foreground ,p6))))
-  `(rainbow-delimiters-depth-3-face           ((t (:foreground ,p7))))
-  `(rainbow-delimiters-depth-2-face           ((t (:foreground ,p8))))
-  `(rainbow-delimiters-depth-1-face           ((t (:foreground ,p9))))
+  `(rainbow-delimiters-depth-8-face           ((t (:foreground ,p3))))
+  `(rainbow-delimiters-depth-7-face           ((t (:foreground ,p5))))
+  `(rainbow-delimiters-depth-6-face           ((t (:foreground ,p7))))
+  `(rainbow-delimiters-depth-5-face           ((t (:foreground ,p9))))
+  `(rainbow-delimiters-depth-4-face           ((t (:foreground ,p11))))
+  `(rainbow-delimiters-depth-3-face           ((t (:foreground ,p13))))
+  `(rainbow-delimiters-depth-2-face           ((t (:foreground ,p2))))
+  `(rainbow-delimiters-depth-1-face           ((t (:foreground ,p4))))
 
   ;; Javascript
 
@@ -740,7 +744,12 @@
 
   `(message-mml                               ((t (:foreground ,p0))))
 
-  `(indent-guide-face                         ((t (:foreground ,dp3)))))
+  ;; Clojure mode
+  `(clojure-keyword-face                      ((t (:foreground ,p9))))
+  ;; `(clojure-keyword-face                      ((t (:foreground ,brightfox))))
+  `(clojure-character-face                    ((t (:foreground ,p1))))
+
+  `(indent-guide-face                         ((t (:foreground ,p13)))))
 
 ;;;###autoload
 (when load-file-name
@@ -748,6 +757,7 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'phoenix-dark-pink)
+(provide 'phoenix-dark-pink-theme)
 
 ;; Local Variables:
 ;; no-byte-compile: t
